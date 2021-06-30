@@ -14,9 +14,10 @@ def home(request):
     
     data={}
 
-    for i in  feed.entries:
-        p=Publication(title=i.title)
-        p.save()
-        print(i.title)
+    
+    #p=Publication(title=i.title,link=i.link,date_published=i.published_parsed,description=i.description,author=i.author)
+    #p.save()
+    #print(i.keys())
+    print(feed.status)
 
     return render(request,'home.html',feed)
