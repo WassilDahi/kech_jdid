@@ -1,0 +1,10 @@
+
+
+source:
+    - logo
+    - title
+    - link
+    - photo
+    - date
+    - categorie
+    - description
